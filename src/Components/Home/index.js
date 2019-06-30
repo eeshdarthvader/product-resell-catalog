@@ -82,6 +82,7 @@ export default class Home extends Component {
 			quantity: record.fields['Quantity'],
 			sp: record.fields['Selling Price'],
 			size: record.fields['Size'],
+			link: record.fields['Link'],
 		});
 	};
 
@@ -228,6 +229,7 @@ export default class Home extends Component {
 									quantity={this.state.quantity}
 									sp={this.state.sp}
 									size={this.state.size}
+									link={this.state.link}
 								/>
 							</CSSTransition>
 						</Overlay>

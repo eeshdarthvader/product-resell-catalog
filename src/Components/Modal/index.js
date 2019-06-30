@@ -47,6 +47,14 @@ const Modal = props => {
 										</div>
 									</header>
 
+									{props.link && (
+										<p className="fs-body l-height-0">
+											{' '}
+											<a href={props.link} className="fs-14 fw-600">
+												Product Link
+											</a>
+										</p>
+									)}
 									<p className="fs-body l-height-0">
 										{' '}
 										<span className="fs-14 fw-600">Brand: </span> {props.brand}
