@@ -12,6 +12,7 @@ const ProductCard = props => {
 	);
 	return (
 		<div className={thumbClass}>
+			{!props.instock && <p className="bg-text">Sold out</p>}
 			<div
 				height="273"
 				width="100%"

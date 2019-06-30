@@ -188,6 +188,7 @@ export default class Home extends Component {
 														? record.fields['Type']
 														: 'Others'
 												}
+												instock={record.fields['In Stock']}
 												themes={record.fields['Description']}
 												price={Math.ceil(record.fields['Selling Price'])}
 												actualprice={record.fields['Unit Cost']}
