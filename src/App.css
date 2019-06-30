@@ -68,6 +68,28 @@
 	color: #61dafb;
 }
 
+.modal {
+	max-width: 620px;
+	min-width: 500px;
+	max-height: 90vh;
+}
+
+.middleStencil {
+	align-items: unset;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 320px) {
+	.modal {
+		max-width: 100%;
+		min-width: 200px;
+		max-height: 90vh;
+	}
+
+	.middleStencil {
+		align-items: center;
+	}
+}
+
 @keyframes App-logo-spin {
 	from {
 		transform: rotate(0deg);

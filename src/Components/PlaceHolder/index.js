@@ -5,7 +5,7 @@ import { ReactComponent as Photo } from './icons/photo.svg';
 
 const Placeholder = props => {
 	return (
-		<div className="flex flex-column pt-8 pb-8">
+		<div className="flex flex-column pt-8 pb-8 col-6 col-12--sm col-24--xs middleStencil">
 			<Stencil
 				width="272"
 				height="272"

@@ -10,19 +10,12 @@ const Modal = props => {
 
 	return (
 		<OutsideClickHandler onOutsideClick={() => closeModal()}>
-			<div
-				className="bg-white z-90 w-100p br-4 p-relative"
-				style={{
-					maxWidth: '620px',
-					minWidth: '500px',
-					maxHeight: '90vh',
-				}}
-			>
+			<div className="bg-white z-90 w-100p br-4 p-relative modal">
 				<header className=" px-16 pt-4 bb bc-grey-10">
 					<Container>
 						<Row>
 							<Col className="flex flex-middle flex-between">
-								<h4 className="fs-heading fw-600">Details</h4>
+								<h4 className="fs-15 fw-600">Details</h4>
 								<Icon
 									icon="cross"
 									width="24"
@@ -87,18 +80,13 @@ const Modal = props => {
 				>
 					<Container>
 						<Row>
-							<Col span={12}>
-								<div className="flex flex-between">
+							<Col span={24}>
+								<div className="flex flex-around ">
 									<div>
-										<p className="mb-4 fw-600">₹ {formatCurrency(props.sp)}</p>
+										<p className="mb-4 mt-4 fw-600 ">
+											₹ {formatCurrency(props.sp)}
+										</p>
 									</div>
-								</div>
-							</Col>
-							<Col span={12}>
-								<div className="flex flex-end">
-									<Button type="secondary" className="px-32">
-										Add
-									</Button>
 								</div>
 							</Col>
 						</Row>

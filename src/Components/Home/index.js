@@ -148,7 +148,7 @@ export default class Home extends Component {
 								return (
 									<Badge
 										type={category[cat]}
-										className="mr-4 ml-4 p-8 c-pointer"
+										className="mr-4 ml-4 p-8 c-pointer mt-8--sm mt-8--xs"
 										onClick={this.filterByCategory.bind(null, cat)}
 									>
 										{cat}
