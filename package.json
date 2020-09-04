@@ -4,7 +4,7 @@
 	"private": true,
 	"dependencies": {
 		"@cleartrip/bento": "^0.3.4",
-		"airtable": "^0.6.0",
+		"airtable": "^0.7.2",
 		"babel-plugin-jsx-control-statements": "^4.0.0",
 		"classnames": "^2.2.6",
 		"prop-types": "^15.7.2",
